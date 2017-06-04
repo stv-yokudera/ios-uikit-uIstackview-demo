@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     @IBOutlet weak var stackView: UIStackView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getAxis()
+        setAxis()
         setSpace()
         addSubview()
         setDistribution()
@@ -30,25 +30,22 @@ class ViewController: UIViewController {
     }
     
     // stackviewから指定したviewを除去する
-    private func removeSubview(){
+    private func removeSubview() {
         stackView.removeArrangedSubview(stackView.subviews.first!)
     }
     
     // ビューを並べる方向を設定する
-    private func getAxis(){
+    private func setAxis() {
         stackView.axis = .vertical
     }
     
     // ビュー同士の間隔を設定する
-    private func setSpace(){
+    private func setSpace() {
         stackView.spacing = 5
-
     }
     
     // 軸に沿ったビューの配置方法を設定する
-    private func setDistribution(){
+    private func setDistribution() {
         stackView.distribution = .fillEqually
     }
-
 }
-
