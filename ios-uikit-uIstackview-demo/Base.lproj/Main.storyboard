@@ -22,16 +22,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-5G-n0P">
-                                <rect key="frame" x="112" y="308" width="150" height="50"/>
+                                <rect key="frame" x="149.5" y="320.5" width="75" height="25"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a.png" translatesAutoresizingMaskIntoConstraints="NO" id="AyZ-mk-Cht">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="AyZ-mk-Cht">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b.png" translatesAutoresizingMaskIntoConstraints="NO" id="FLq-sg-hVD">
-                                        <rect key="frame" x="50" y="0.0" width="50" height="50"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="FLq-sg-hVD">
+                                        <rect key="frame" x="25" y="0.0" width="25" height="25"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c.png" translatesAutoresizingMaskIntoConstraints="NO" id="eGB-5K-muA">
-                                        <rect key="frame" x="100" y="0.0" width="50" height="50"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="eGB-5K-muA">
+                                        <rect key="frame" x="50" y="0.0" width="25" height="25"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -52,8 +52,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="a.png" width="50" height="50"/>
-        <image name="b.png" width="50" height="50"/>
-        <image name="c.png" width="50" height="50"/>
+        <image name="a" width="25" height="25"/>
+        <image name="b" width="25" height="25"/>
+        <image name="c" width="25" height="25"/>
     </resources>
 </document>

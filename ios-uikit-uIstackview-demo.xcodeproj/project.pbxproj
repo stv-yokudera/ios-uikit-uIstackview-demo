@@ -14,9 +14,12 @@
 		9F6AB9F51E6E4DE500A41FBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6AB9F31E6E4DE500A41FBD /* LaunchScreen.storyboard */; };
 		9F6ABA001E6E4DE500A41FBD /* ios_uikit_uIstackview_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6AB9FF1E6E4DE500A41FBD /* ios_uikit_uIstackview_demoTests.swift */; };
 		9F6ABA0B1E6E4DE500A41FBD /* ios_uikit_uIstackview_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6ABA0A1E6E4DE500A41FBD /* ios_uikit_uIstackview_demoUITests.swift */; };
-		9F6ABA1B1E6E4F7800A41FBD /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6ABA181E6E4F7800A41FBD /* a.png */; };
-		9F6ABA1C1E6E4F7800A41FBD /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6ABA191E6E4F7800A41FBD /* b.png */; };
-		9F6ABA1D1E6E4F7800A41FBD /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6ABA1A1E6E4F7800A41FBD /* c.png */; };
+		B6A7C77A1EE46D1100B99A85 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7781EE46D1100B99A85 /* CustomTableViewCell.swift */; };
+		B6A7C77B1EE46D1100B99A85 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C7791EE46D1100B99A85 /* CustomTableViewCell.xib */; };
+		B6A7C77E1EE4762300B99A85 /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C77C1EE4762300B99A85 /* IconCollectionViewCell.swift */; };
+		B6A7C77F1EE4762300B99A85 /* IconCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C77D1EE4762300B99A85 /* IconCollectionViewCell.xib */; };
+		B6A7C7811EE47DC700B99A85 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C7801EE47DC700B99A85 /* TableViewController.swift */; };
+		B6A7C7831EE47DCF00B99A85 /* TableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C7821EE47DCF00B99A85 /* TableViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +53,12 @@
 		9F6ABA061E6E4DE500A41FBD /* ios-uikit-uIstackview-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-uIstackview-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6ABA0A1E6E4DE500A41FBD /* ios_uikit_uIstackview_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_uIstackview_demoUITests.swift; sourceTree = "<group>"; };
 		9F6ABA0C1E6E4DE500A41FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F6ABA181E6E4F7800A41FBD /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
-		9F6ABA191E6E4F7800A41FBD /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
-		9F6ABA1A1E6E4F7800A41FBD /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		B6A7C7781EE46D1100B99A85 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B6A7C7791EE46D1100B99A85 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B6A7C77C1EE4762300B99A85 /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6A7C77D1EE4762300B99A85 /* IconCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6A7C7801EE47DC700B99A85 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B6A7C7821EE47DCF00B99A85 /* TableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TableViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +109,9 @@
 		9F6AB9E91E6E4DE500A41FBD /* ios-uikit-uIstackview-demo */ = {
 			isa = PBXGroup;
 			children = (
-				9F6AB9EA1E6E4DE500A41FBD /* AppDelegate.swift */,
-				9F6AB9EC1E6E4DE500A41FBD /* ViewController.swift */,
-				9F6AB9EE1E6E4DE500A41FBD /* Main.storyboard */,
-				9F6AB9F11E6E4DE500A41FBD /* Assets.xcassets */,
-				9F6ABA181E6E4F7800A41FBD /* a.png */,
-				9F6ABA191E6E4F7800A41FBD /* b.png */,
-				9F6ABA1A1E6E4F7800A41FBD /* c.png */,
-				9F6AB9F31E6E4DE500A41FBD /* LaunchScreen.storyboard */,
-				9F6AB9F61E6E4DE500A41FBD /* Info.plist */,
+				B6A7C7761EE46CEE00B99A85 /* Views */,
+				B6A7C7751EE46CE400B99A85 /* Others */,
+				B6A7C7701EE46C8E00B99A85 /* Controllers */,
 			);
 			path = "ios-uikit-uIstackview-demo";
 			sourceTree = "<group>";
@@ -132,6 +132,63 @@
 				9F6ABA0C1E6E4DE500A41FBD /* Info.plist */,
 			);
 			path = "ios-uikit-uIstackview-demoUITests";
+			sourceTree = "<group>";
+		};
+		B6A7C7701EE46C8E00B99A85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7731EE46CC800B99A85 /* TableView */,
+				B6A7C7721EE46CBC00B99A85 /* Startup */,
+				B6A7C7711EE46C9D00B99A85 /* ViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6A7C7711EE46C9D00B99A85 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F6AB9EC1E6E4DE500A41FBD /* ViewController.swift */,
+				9F6AB9EE1E6E4DE500A41FBD /* Main.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B6A7C7721EE46CBC00B99A85 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				9F6AB9F31E6E4DE500A41FBD /* LaunchScreen.storyboard */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+		B6A7C7731EE46CC800B99A85 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7801EE47DC700B99A85 /* TableViewController.swift */,
+				B6A7C7821EE47DCF00B99A85 /* TableViewController.storyboard */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		B6A7C7751EE46CE400B99A85 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9F6AB9F61E6E4DE500A41FBD /* Info.plist */,
+				9F6AB9EA1E6E4DE500A41FBD /* AppDelegate.swift */,
+				9F6AB9F11E6E4DE500A41FBD /* Assets.xcassets */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		B6A7C7761EE46CEE00B99A85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7C7781EE46D1100B99A85 /* CustomTableViewCell.swift */,
+				B6A7C7791EE46D1100B99A85 /* CustomTableViewCell.xib */,
+				B6A7C77C1EE4762300B99A85 /* IconCollectionViewCell.swift */,
+				B6A7C77D1EE4762300B99A85 /* IconCollectionViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6AB9F51E6E4DE500A41FBD /* LaunchScreen.storyboard in Resources */,
-				9F6ABA1C1E6E4F7800A41FBD /* b.png in Resources */,
-				9F6ABA1B1E6E4F7800A41FBD /* a.png in Resources */,
-				9F6ABA1D1E6E4F7800A41FBD /* c.png in Resources */,
+				B6A7C77F1EE4762300B99A85 /* IconCollectionViewCell.xib in Resources */,
+				B6A7C7831EE47DCF00B99A85 /* TableViewController.storyboard in Resources */,
+				B6A7C77B1EE46D1100B99A85 /* CustomTableViewCell.xib in Resources */,
 				9F6AB9F21E6E4DE500A41FBD /* Assets.xcassets in Resources */,
 				9F6AB9F01E6E4DE500A41FBD /* Main.storyboard in Resources */,
 			);
@@ -271,8 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A7C77A1EE46D1100B99A85 /* CustomTableViewCell.swift in Sources */,
 				9F6AB9ED1E6E4DE500A41FBD /* ViewController.swift in Sources */,
 				9F6AB9EB1E6E4DE500A41FBD /* AppDelegate.swift in Sources */,
+				B6A7C7811EE47DC700B99A85 /* TableViewController.swift in Sources */,
+				B6A7C77E1EE4762300B99A85 /* IconCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +575,7 @@
 				9F6ABA111E6E4DE500A41FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6ABA121E6E4DE500A41FBD /* Build configuration list for PBXNativeTarget "ios-uikit-uIstackview-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +584,7 @@
 				9F6ABA141E6E4DE500A41FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6ABA151E6E4DE500A41FBD /* Build configuration list for PBXNativeTarget "ios-uikit-uIstackview-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +593,7 @@
 				9F6ABA171E6E4DE500A41FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
